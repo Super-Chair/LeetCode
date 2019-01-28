@@ -22,7 +22,7 @@ class Solution:
     			return ans
     	return ans
 
-    def twoSumV3(self, nums, target):
+    def twoSum(self, nums, target):
         if len(nums) <= 1:
             return False
         buff_dict = {}
